@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:gravity="center_horizontal"
+    android:weightSum="100">
+
+
+
+<!--<RelativeLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="0dp"-->
+<!--    android:layout_weight="50"-->
+<!--    android:gravity="center_horizontal|center_vertical"-->
+
+<!--    >-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/spash_screen.png"-->
+
+<!--        />-->
+<!--</RelativeLayout>-->
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="40"-->
+<!--        android:gravity="center_horizontal|bottom"-->
+<!--&gt;-->
+
+
+<!--        <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textAlignment="center"-->
+
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="#0085D1"-->
+<!--        android:textSize="@dimen/autofill_inline_suggestion_icon_size"-->
+<!--        android:textStyle="bold" />-->
+<!--        &lt;!&ndash;  this is for showing appname in splash screen  android:text="@string/app_name"&ndash;&gt;-->
+<!--    </RelativeLayout>-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/spash_screen"/>
+
+</LinearLayout>
